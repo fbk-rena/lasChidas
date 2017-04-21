@@ -1,0 +1,23 @@
+#titulo{
+    position: relative;
+    left: 50%;
+    top: 100px;
+}
+
+#areaFoto{
+    position: relative;
+    left: 10%;
+    top: 300px;    
+}
+
+#areaTexto{
+    position: relative;
+    left: 50%;
+    bottom: 500px;  
+}
+
+#areaHobbies{
+    position: relative;
+    left: 50%;
+    top:500px; 
+}
