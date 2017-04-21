@@ -1,0 +1,12 @@
+#sobreMi img {
+    width: 250px;
+}
+
+p {
+    display: inline-block;
+    max-width: 400px;
+}
+
+#hobbies img {
+    width: 100px;
+}
