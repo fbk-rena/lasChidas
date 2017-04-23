@@ -20,41 +20,74 @@
     letter-spacing: 3px;
 }
 
-#presentacion>p {
-    display: inline-block;
-    max-width: 70%;
-    margin: 3% 12% 0;
-    color: #656565;
+#presentacion {
+    text-align: center;
 }
 
+    #presentacion>img {
+        width: 17%;
+        margin: 3% auto;
+        display: block;
+    }
+    #presentacion>p {
+        display: inline-block;
+        max-width: 70%;
+        color: #8b8b8b;
+        margin-bottom: 10px;
+    }
+
 #coders {
-    width: 70%;
-    margin: 5% 12% 0;
+    width: 60%;
+    margin: 5% auto 0;
     overflow: hidden;
+    margin-bottom: 50px;
+    
+   
 }
+
+    #coders>h2 {
+        text-align: center;
+        color: #909090;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
 
     #coders>span {
         float: left;
-        width: 25%;
-        margin: 0 3% 3%;
+        width: 30%;
+        margin: 10px;
         text-align: center;
     }
     
         #coders>span>img {
             width: 100%;
         }
+
+            #coders>span>img:hover {
+                opacity: 0.6;
+            }
         
         #coders>span>a {
             color: #01b7b0;
             text-decoration: none;
-            font-size: 22px;
+            font-size: 17px;
             font-weight: 900;
             letter-spacing: 1px;    
         }
           
             #coders>span>a:hover {
-                color: #a0a0a0;
+                color: #00ffd8;
             }
 
+#pieDePagina {
+    height: 40px;
+    background-color: #617477;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
 

@@ -18,8 +18,8 @@
 
 #miNombre {
     font-family: 'Vidaloka', serif;
-    font-size: 32px;
-    letter-spacing: 4px;
+    font-size: 31px;
+    letter-spacing: 4.3px;
     margin-left: 55%;
     margin-top: 100px;
 }
@@ -51,7 +51,7 @@
 #sobreDiana>p {
     font-family: 'Roboto Slab', serif;
     color: #848484;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #sobreDiana>div>img {
