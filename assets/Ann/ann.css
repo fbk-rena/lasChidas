@@ -1,0 +1,31 @@
+#h1ann {
+    font-family: monospace;
+}
+
+#foto_Ann{
+    
+    display: inline-block;
+   
+}
+
+#foto_Ann img {
+    width: 200px;
+    height: 200px;
+}
+
+#contenedorAnn{
+    display: inline-block;
+}
+
+#vidaAnn {
+   
+    font-family: monospace;
+    display: inline-block;
+    width: 500px;
+    margin-left: 100px;
+}
+
+#hobbiesAnn {
+    clear: both;
+    font-family: monospace;
+}

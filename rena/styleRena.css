@@ -1,0 +1,19 @@
+.renaFoto{
+   width: 35%;
+   float: left;
+   margin: 10px;
+}
+.renaFoto img{
+   width: 100%;
+}
+renaH2{
+   text-align: center;
+}
+.hobbieRena{
+   width: 30%;
+   display: inline-block;
+}
+
+.hobbieRena img{
+   width: 100%;
+}
