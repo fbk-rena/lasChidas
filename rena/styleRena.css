@@ -1,7 +1,6 @@
 #bodyRena{
    background-image: url(imgRena/1010889_10203755245185736_1593986127453540325_n.jpg);
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
+   background-size: cover;
 }
 .renaFoto{
    width: 35%;
@@ -29,11 +28,8 @@
 }
 .hobbieRena img{
    width: 100%;
-   border-radius: 5%;
-}
-
-.hobbieRena img:after {
-  content: attr(title);
+   border: 10px white solid;
+   border-bottom: 50px solid white;
 }
 .hobbieRena img:hover {
   -webkit-transform: scale(1.25);
@@ -41,3 +37,31 @@
   position: relative;
   z-index: 5;
 }
+/* Inclina todas las imagenes 2 grados*/
+.hobbieRena img{
+-webkit-transform: rotate(-2deg);
+-moz-transform: rotate(-2deg);
+}
+ 
+/* Gira todas las imagenes pares */
+.hobbieRena:nth-child(even) img{
+-webkit-transform: rotate(2deg);
+-moz-transform: rotate(2deg);
+}
+ 
+/* Evita que gire cada tercer imagen, compensa su posicion */
+.hobbieRena:nth-child(3n) img {
+-webkit-transform: none;
+-moz-transform: none;
+position: relative;
+top: -5px;
+}
+ 
+/* Gira cada quinta imagen 5 grados */
+.hobbieRena img:nth-child(5n) img{
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+position: relative;
+right: 5px;
+}
+ 
