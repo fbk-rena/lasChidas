@@ -1,0 +1,38 @@
+header {
+
+    background: black; 
+    color: white; 
+    font-family: 'Poiret One', cursive;
+    font-size: 50px; 
+    text-align: center;
+   
+}
+
+.nombre {
+ font-family: 'Dancing Script', cursive;
+ font-size: 30px; 
+ margin-left: 15cm; 
+ margin-top: 1cm; 
+position: absolute;
+ 
+}
+
+.textoCoder {
+ font-family: 'Poiret One', cursive;
+}
+
+
+.hobbies {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px; 
+    margin-left: 15cm;
+    margin-top: 5cm;
+    position: absolute;
+}
+
+.foto {
+    width: 400px; 
+   border-radius: 400px;
+    position: absolute;
+    margin-top: 2.5cm; 
+}
