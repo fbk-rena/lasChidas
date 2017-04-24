@@ -1,0 +1,23 @@
+body{
+  background-color: #fff;
+}
+
+div{
+  font-family: "Century Gothic";
+}
+img{
+  float: right;
+}
+
+span{
+
+  display: inline;
+}
+
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
