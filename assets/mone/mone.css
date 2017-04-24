@@ -1,23 +1,41 @@
+#bodyMone{
+    background-color: #0d1646;
+    color: white;
+}
 #titulo{
     position: relative;
     left: 50%;
-    top: 100px;
+    top: 80px;
+    margin-bottom: 70px;
+    font-size: 30px;
 }
 
 #areaFoto{
-    position: relative;
+    float: left;
     left: 10%;
-    top: 300px;    
+    top: 300px;
+    width: 30%;
+     
+}
+
+#areaFoto >img{
+    width: 100%;
+    
 }
 
 #areaTexto{
+    clear: both;
     position: relative;
     left: 50%;
-    bottom: 500px;  
+    bottom: 500px; 
+    font-size: 20px;
+}
+#textoMone{
+    display: inline-block;
+    width: 40%;
 }
 
-#areaHobbies{
-    position: relative;
-    left: 50%;
-    top:500px; 
+#tituloHobbies{
+    font-size: 25px;
+    
 }
