@@ -1,31 +1,36 @@
 #h1ann {
-    font-family: monospace;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    background: black;
 }
 
-#foto_Ann{
-    
+#foto_Ann {
     display: inline-block;
-   
+    position: absolute;
 }
 
 #foto_Ann img {
     width: 200px;
     height: 200px;
+    position: absolute;
+    
+    
 }
 
-#contenedorAnn{
-    display: inline-block;
+#contenedorAnn {
+    float:left;
 }
 
 #vidaAnn {
-   
-    font-family: monospace;
-    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    float:left;
     width: 500px;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 
 #hobbiesAnn {
     clear: both;
-    font-family: monospace;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: white;
+    background: black;
 }
