@@ -1,7 +1,22 @@
 #val{
   font-family: helvetica;
+    background-color: #09bdcc;
+        color: #fff;
+    
+}
+
+.tituloNombreVal{
+    font-size: 45px;
+}
+
+.hobbieIMG{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    
 }
 
 .textoHobbiesVal{
-  color: red;
+  color: white;
+    display: inline-block;
 }
