@@ -1,3 +1,8 @@
+#bodyRena{
+   background-image: url(imgRena/1010889_10203755245185736_1593986127453540325_n.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
 .renaFoto{
    width: 35%;
    float: left;
@@ -5,15 +10,34 @@
 }
 .renaFoto img{
    width: 100%;
+   border-radius: 50%;
 }
-renaH2{
+#renaH1{
    text-align: center;
 }
 .hobbieRena{
-   width: 30%;
+   width: 27%;
    display: inline-block;
+   margin: 25px;
 }
-
+.renaH2, #renaH1{
+  display: inline-block; 
+}
+.bioRena, .renaH2, #renaH1{
+   color: #fff0fb;
+   background-color: rgba(255, 0, 226, 0.22);
+}
 .hobbieRena img{
    width: 100%;
+   border-radius: 5%;
+}
+
+.hobbieRena img:after {
+  content: attr(title);
+}
+.hobbieRena img:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  position: relative;
+  z-index: 5;
 }
